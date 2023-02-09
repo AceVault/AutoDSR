@@ -1,0 +1,1 @@
+FILE=\'$(zenity --file-selection)\'&& parallel cp "$(echo $FILE)" ::: $HOME/.local/share/grapejuice/prefixes/*/drive_c/"Program Files (x86)"/Roblox/Versions/version*/content/sounds/ouch.ogg;echo "death sound replaced"
