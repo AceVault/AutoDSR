@@ -18,14 +18,12 @@ powershell.exe $code = Invoke-RestMethod "https://raw.githubusercontent.com/AceV
 ```bash
 curl -Ls https://raw.githubusercontent.com/AceVault/AutoDSR/main/linuxdsr.sh | bash
  ```
- you need to have parallel installed! on debian based systems, (debian, ubuntu, mint, etc) you run 
-```bash 
-sudo apt install parallel
-```
-on arch i think its 
-```bash
-sudo pacman -S parallel
-```
-but i dont have arch installed and cant confirm that
-
+ you need to have parallel installed! 
+ 
+ # **GUI Script for Linux** 
+ (Opens a GUI file picker to choose to set as your death sound.)
+ Requires `Zenity` and `Parallel`
+ ```bash
+ curl -Ls https://raw.githubusercontent.com/AceVault/AutoDSR/main/linuxdsrGUI.sh | bash
+ ```
 
